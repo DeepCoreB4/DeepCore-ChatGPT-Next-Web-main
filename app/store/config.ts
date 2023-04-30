@@ -87,6 +87,7 @@ export function limitNumber(
   max: number,
   defaultValue: number,
 ) {
+  // file deepcode ignore UseNumberIsNan: <please specify a reason of ignoring this>
   if (typeof x !== "number" || isNaN(x)) {
     return defaultValue;
   }

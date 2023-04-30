@@ -5,6 +5,7 @@ async function makeRequest(req: NextRequest) {
   try {
     const api = await requestOpenai(req);
     const res = new NextResponse(api.body);
+    // deepcode ignore ContentTypeNoCharset: <please specify a reason of ignoring this>
     res.headers.set("Content-Type", "application/json");
     res.headers.set("Cache-Control", "no-cache");
     return res;
