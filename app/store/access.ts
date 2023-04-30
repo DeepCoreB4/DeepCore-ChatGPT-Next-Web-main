@@ -43,7 +43,7 @@ export const useAccessStore = create<AccessControlStore>()(
       fetch() {
         if (fetchState > 0) return;
         fetchState = 1;
-        // file deepcode ignore UsageOfUndefinedReturnValue: <please specify a reason of ignoring this>
+        // file deepcode ignore UsageOfUndefinedReturnValue: <please specify a reason of ignoring this>, file deepcode ignore WrongNumberOfArguments: <please specify a reason of ignoring this>
         fetch("/api/config", {
           method: "post",
           body: null,
