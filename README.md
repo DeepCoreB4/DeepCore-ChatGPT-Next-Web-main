@@ -9,8 +9,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 [Buy Me a Coffee](https://www.buymeacoffee.com/DCb4Cuppari)
 
-(https://chat-gpt-next-web.vercel.app/) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues)
-
+(https://deep-core-chat-gpt-next-web.vercel.app/) / (https://github.com/DeepCoreB4/DeepCore-ChatGPT-Next-Web-main/issues)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
