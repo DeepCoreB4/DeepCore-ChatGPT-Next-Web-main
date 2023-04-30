@@ -87,7 +87,7 @@ export const useMaskStore = create<MaskStore>()(
         );
         return userMasks.concat(BUILTIN_MASKS);
       },
-      search(text) {
+      search() {
         return Object.values(get().masks);
       },
     }),
