@@ -1,8 +1,8 @@
 {
-  "name": "chatgpt-next-web",
-  "version": "1.9.3",
+  "name": "dc-chatgpt-next-web",
+  "version": "2.0.1",
   "private": false,
-  "license": "Anti 996",
+  "license": "Sollfeggio_hz-963",
   "scripts": {
     "dev": "yarn fetch && next dev",
     "build": "yarn fetch && next build",
